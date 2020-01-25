@@ -1,0 +1,4 @@
+models/arcface_families_ft_normed_50-symbol.json filter=lfs diff=lfs merge=lfs -text
+models/arcface_families_ft-symbol.json filter=lfs diff=lfs merge=lfs -text
+models/arcface_families_ft-0000.params filter=lfs diff=lfs merge=lfs -text
+models/arcface_families_ft_normed_50-0000.params filter=lfs diff=lfs merge=lfs -text
