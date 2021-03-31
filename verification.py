@@ -172,13 +172,13 @@ if __name__ == '__main__':
     fpr, tpr, _ = roc_curve(y_true, predictions)
     plt.plot(fpr, tpr, color='b', lw=2, label=f'baseline AUC:{auc(fpr, tpr):.4f}')
     
-    model = CompareModel('fitw/arcface_families_ft', ctx=ctx)
+    model = CompareModel('models/arcface_families_ft', ctx=ctx)
     model.metric = cosine
     predictions = predict(model, pair_list)
     fpr, tpr, _ = roc_curve(y_true, predictions)
     plt.plot(fpr, tpr, color='g', lw=2, label=f' +classification AUC:{auc(fpr, tpr):.4f}')
     
-    model = CompareModel('fitw/arcface_families_ft_normed_50', ctx=ctx)
+    model = CompareModel('models/arcface_families_ft_normed_50', ctx=ctx)
     model.metric = cosine
     predictions = predict(model, pair_list)
     fpr, tpr, _ = roc_curve(y_true, predictions)
