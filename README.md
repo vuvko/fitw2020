@@ -20,6 +20,10 @@ The first provides nessesary functions to prepare (as described in the section I
 
 We provide already prepared data (re-detected and re-aligned) that can be found in `train-faces-det` and `val-faces-det` folders for training and validation images respectfully.
 
+## Models
+
+You can downloads models through Git LFS while cloning the repository. Alternatively, you can download them from this [link](https://disk.yandex.ru/d/4AbxLjTa3fsG7g).
+
 ## Citation
 
 If you'd like to cite the training pipeline or results from the paper, use this citation:
