@@ -1,4 +1,4 @@
-mxnet==1.5.1
+mxnet==1.9.1
 insightface
 tqdm
 opencv-python
